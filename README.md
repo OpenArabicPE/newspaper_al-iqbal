@@ -1,11 +1,13 @@
 ---
 title: "newspaper_al-iqbal: read me"
 author: Till Grallert
-date: 2020-05-11
+date: 2022-02-02
 ORCID: orcid.org/0000-0002-5739-8094
 ---
 
 This repository contains bibliographic metadata for the private newspaper *al-Iqbāl* published from 9 April 1902 onwards by ʿAbd al-Bāsiṭ al-Unsī in Beirut.
+
+Digital facsimiles are openly accessibly through East Views's [Global Press Archive](https://gpa.eastview.com/crl/mena/newspapers/aliq)
 
 # some technical details
 
