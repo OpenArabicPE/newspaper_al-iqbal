@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><tei:TEI xmlns="http://www.tei-c.org/ns/1.0"
+         xmlns:tei="http://www.tei-c.org/ns/1.0"
+         xml:id="oclc_1086411815-i_143"
+         prev="oclc_1086411815-i_142.TEIP5.xml"
+         next="oclc_1086411815-i_144.TEIP5.xml">
+   <tei:teiHeader xml:lang="en">
+      <tei:fileDesc>
+         <tei:titleStmt>
+            <title>al-Iqbāl #143, 16 April 1906</title>
+            <title type="sub">TEI edition</title>
+            <respStmt xml:lang="en">
+               <resp>TEI edition</resp>
+               <persName xml:id="pers_TG">
+                  <forename>Till</forename>
+                  <surname>Grallert</surname>
+               </persName>
+            </respStmt>
+         </tei:titleStmt>
+         <tei:publicationStmt>
+            <authority>
+               <persName>Till Grallert</persName>
+            </authority>
+            <pubPlace>
+               <placeName>Berlin</placeName>
+            </pubPlace>
+            <date when="2023">2023</date>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence>
+            </availability>
+            <idno type="url">https://github.com/openarabicpe/journal_al-mahabba/blob/master/tei/oclc_1086411815-i_143.TEIP5.xml</idno>
+         </tei:publicationStmt>
+         <tei:sourceDesc>
+            <biblStruct xmlns:oape="https://openarabicpe.github.io/ns"
+                        oape:frequency="weekly"
+                        subtype="newspaper"
+                        type="periodical">
+               <monogr>
+                  <title level="j" xml:lang="ar">الإقبال</title>
+                  <title level="j" type="sub" xml:lang="ar">جريدة علمية تاريخية اخبارية فنية</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">al-Iqbāl</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Jarīda ʿilmiyya tārīkhiyya akhbāriyya fanniyya</title>
+                  <idno type="oape">96</idno>
+                  <idno type="OCLC">1086411815</idno>
+                  <idno type="BibTeX">oclc_1086411815-v_5-i_143</idno>
+                  <idno type="url">https://gpa.eastview.com/crl/mena/newspapers/aliq19060416-01.1.1</idno>
+                  <textLang mainLang="ar"/>
+                  <editor type="owner">
+                     <persName change="#d9e65"
+                               ref="viaf:22151654727108281690 oape:pers:288"
+                               xml:lang="ar">
+                        <forename xml:lang="ar">عبد الباسط</forename>
+                        <surname xml:lang="ar">الانسي</surname>
+                     </persName>
+                     <persName change="#d9e65"
+                               ref="viaf:22151654727108281690 oape:pers:288"
+                               xml:lang="ar-Latn-x-ijmes">
+                        <forename xml:lang="ar-Latn-x-ijmes">ʿAbd al-Bāsiṭ</forename>
+                        <surname xml:lang="ar-Latn-x-ijmes">al-Unsī</surname>
+                     </persName>
+                  </editor>
+                  <editor>
+                     <persName ref="viaf:4812503 oape:pers:391" xml:lang="ar">
+                        <forename>محيي الدين</forename>
+                        <surname>الخياط</surname>
+                     </persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">
+                        <forename>Muḥiyī al-Dīn</forename>
+                        <surname>al-Khayyāṭ</surname>
+                     </persName>
+                  </editor>
+                  <imprint xml:lang="en">
+                     <publisher>
+                        <orgName xml:lang="ar">المكتبة الانسية</orgName>
+                        <orgName xml:lang="ar-Latn-x-ijmes">al-Maktaba al-Unsiyya</orgName>
+                     </publisher>
+                     <pubPlace>
+                        <placeName ref="oape:place:26 geon:276781" xml:lang="en">Beirut</placeName>
+                        <placeName ref="oape:place:26 geon:276781" xml:lang="ar">بيروت</placeName>
+                     </pubPlace>
+                     <tei:date calendar="#cal_gregorian" when="1906-04-16" xml:lang="en">16 April 1906, Monday</tei:date>
+                     <tei:date calendar="#cal_islamic"
+                               datingMethod="#cal_islamic"
+                               type="computed"
+                               when="1906-04-16"
+                               when-custom="1324-02-21"
+                               xml:lang="ar-Latn-x-ijmes">21 Ṣafar 1324, Monday</tei:date>
+                     <tei:date calendar="#cal_ottomanfiscal"
+                               datingMethod="#cal_ottomanfiscal"
+                               when="1906-04-16"
+                               when-custom="1322-02-03"
+                               xml:lang="ar-Latn-x-ijmes">3 Nīsān 1322, Monday</tei:date>
+                  </imprint>
+                  <biblScope from="5" to="5" unit="volume"/>
+                  <biblScope from="143" to="143" unit="issue"/>
+                  <biblScope from="1" to="8" unit="page"/>
+               </monogr>
+               <note type="tagList" xml:lang="ar">
+                  <list xml:lang="en">
+                     <item xml:lang="en">frequency_weekly</item>
+                     <item xml:lang="en">days_monday</item>
+                  </list>
+               </note>
+            </biblStruct>
+         </tei:sourceDesc>
+      </tei:fileDesc>
+      <tei:revisionDesc>
+         <tei:change when="2023-11-14">Created this file by automatic conversion of <tei:gi>biblStruct</tei:gi> from file:/Users/Shared/BachUni/BachBibliothek/GitHub/OpenArabicPE/newspaper_al-iqbal/metadata/al-iqbal.TEIP5.xml.</tei:change>
+      </tei:revisionDesc>
+   </tei:teiHeader>
+   <tei:facsimile>
+      <tei:surface xml:id="facs_1"/>
+      <tei:surface xml:id="facs_2"/>
+      <tei:surface xml:id="facs_3"/>
+      <tei:surface xml:id="facs_4"/>
+      <tei:surface xml:id="facs_5"/>
+      <tei:surface xml:id="facs_6"/>
+      <tei:surface xml:id="facs_7"/>
+      <tei:surface xml:id="facs_8"/>
+   </tei:facsimile>
+   <tei:text xml:lang="ar">
+      <tei:pb ed="print" n="1" facs="#facs_1"/>
+      <front/>
+      <tei:body>
+         <tei:div type="item">
+            <tei:pb ed="print" n="2" facs="#facs_2"/>
+            <tei:pb ed="print" n="3" facs="#facs_3"/>
+            <tei:pb ed="print" n="4" facs="#facs_4"/>
+            <tei:pb ed="print" n="5" facs="#facs_5"/>
+            <tei:pb ed="print" n="6" facs="#facs_6"/>
+            <tei:pb ed="print" n="7" facs="#facs_7"/>
+            <tei:pb ed="print" n="8" facs="#facs_8"/>
+         </tei:div>
+      </tei:body>
+   </tei:text>
+</tei:TEI>
